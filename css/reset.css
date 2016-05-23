@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+body > div >a >{ transition:all 0.3s ease;	}	
+a:focus { outline:0px; }		
+h1{ font-size:36px; color:#333 !important; font-family: 'Roboto', sans-serif; font-weight:bold; line-height:24px; margin:0px; }
+h2{ font-size:24px; color:#333 !important; font-family: 'Roboto', sans-serif; font-weight:bold; line-height:24px; margin:0px; }
+.main-title{ background-image:url(../images/headingbg.png); background-position:center; background-repeat:no-repeat; text-align:center;	 background-position:bottom; padding-bottom:24px; margin-bottom:4px; }
+.subtitle{ text-align:center; width:600px; margin:0 auto; padding-bottom:50px; }		
+h3{ font-size:18px; color:#333; font-family: 'Roboto', sans-serif; font-weight:bold; margin:0px; line-height:24px; }
+h4{ font-size:16px; color:#333; font-family: 'Roboto', sans-serif; font-weight:bold; margin:0px; line-height:24px; }
+h5{ font-size:14px; color:#333; line-height:24px; font-weight:bold; margin:0px; }
+p{ font-size:16px; color:#999; font-family: 'Raleway', sans-serif; font-weight:normal; line-height:24px; }
+
+@media screen  and (min-width:320px) and (max-width: 768px){ .subtitle{ width: 100%;}}
