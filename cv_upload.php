@@ -31,5 +31,5 @@
                 echo 'file error';
                 die();
               }
-          
+           echo '';
            ?>
